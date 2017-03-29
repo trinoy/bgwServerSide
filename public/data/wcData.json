@@ -1,0 +1,729 @@
+{
+	"clusters": [{
+		"clusterNo": "BC",
+		"installed": true,
+		"clusterStyle": [{
+			"url": "img/ZoneMarkerIcon-Active.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Active.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Active.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}],
+		"wells": [{
+			"wellId": "01",
+			"wellShortName": "BC01",
+			"wellLocDesc": "On Beacon St., in front of 502 Beacon St.",
+			"lat": 42.350833727596,
+			"lng": -71.0897833607826,
+			"installed": true,
+			"inRange": false
+		}, {
+			"wellId": "02",
+			"wellShortName": "BC02",
+			"wellLocDesc": "On Beacon St., in front of 492 Beacon St.",
+			"lat": 42.3510358578937,
+			"lng": -71.0890593877315,
+			"installed": true,
+			"inRange": false
+		}, {
+			"wellId": "03",
+			"wellShortName": "BC03",
+			"wellLocDesc": "Corner of Beacon and Gloucester St., adjacent to 404 Beacon St.",
+			"lat": 42.351982,
+			"lng": -71.085588,
+			"installed": true,
+			"inRange": false
+		}, {
+			"wellId": "04",
+			"wellShortName": "BC04",
+			"wellLocDesc": "On Beacon St., in front of 298 Beacon St.",
+			"lat": 42.3529008396014,
+			"lng": -71.0821630932541,
+			"installed": true,
+			"inRange": false
+		}, {
+			"wellId": "05",
+			"wellShortName": "BC05",
+			"wellLocDesc": "On Beacon St., in front of 242 Beacon St.",
+			"lat": 42.35361,
+			"lng": -71.079524,
+			"installed": true,
+			"inRange": false
+		}, {
+			"wellId": "06",
+			"wellShortName": "BC06",
+			"wellLocDesc": "On Beacon St., in front of 214 Beacon St.",
+			"lat": 42.353971,
+			"lng": -71.07816,
+			"installed": true,
+			"inRange": false
+		}, {
+			"wellId": "07",
+			"wellShortName": "BC07",
+			"wellLocDesc": "On Beacon St., in front of 140 Beacon St.",
+			"lat": 42.354759,
+			"lng": -71.075258,
+			"installed": true,
+			"inRange": false
+		}, {
+			"wellId": "08",
+			"wellShortName": "BC08",
+			"wellLocDesc": "Corner of Embankment Rd. and Beacon St., adjacent to 100 Beacon St.",
+			"lat": 42.355299178983,
+			"lng": -71.0732510932541,
+			"installed": true,
+			"inRange": true
+		}, {
+			"wellId": "09",
+			"wellShortName": "BC09",
+			"wellLocDesc": "On Beacon St., adjacent to 96 Beacon St.",
+			"lat": 42.3554614117879,
+			"lng": -71.0727750061169,
+			"installed": true,
+			"inRange": false
+		}, {
+			"wellId": "10",
+			"wellShortName": "BC10",
+			"wellLocDesc": "Corner of River and Beacon St., adjacent to 70 Beacon St.",
+			"lat": 42.356139,
+			"lng": -71.069944,
+			"installed": true,
+			"inRange": false
+		}]
+	}, {
+		"clusterNo": "BY",
+		"installed": false,
+		"clusterStyle": [{
+			"url": "img/ZoneMarkerIconFilled-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}],
+		"wells": [{
+				"wellId": "11",
+				"wellShortName": "BY10",
+				"wellLocDesc": "On Boylston St., in front of 400 Boylston St.",
+				"lat": 42.3482822753081,
+				"lng": -71.0843848748341,
+				"installed": false,
+				"inRange": false
+			}, {
+				"wellId": "12",
+				"wellShortName": "BY02",
+				"wellLocDesc": "On Boylston St., in front of 911 Boylston St.",
+				"lat": 42.3484727524483,
+				"lng": -71.0836920233135,
+				"installed": false,
+				"inRange": false
+
+			}, {
+				"wellId": "13",
+				"wellShortName": "BY03",
+				"wellLocDesc": "Corner of Gloucester and Boylston St., adjacent to 885 Boylston St.",
+				"lat": 42.3487228319422,
+				"lng": -71.0827065423279,
+				"installed": false,
+				"inRange": false
+			},
+
+			{
+				"wellId": "14",
+				"wellShortName": "BY04",
+				"wellLocDesc": "On Boylston St., in front of 841 Boylston St.",
+				"lat": 42.3489877256739,
+				"lng": -71.081931317791,
+				"installed": false,
+				"inRange": false
+			}, {
+				"wellId": "15",
+				"wellShortName": "BY05",
+				"wellLocDesc": "Corner of Fairfield and Boylston St., adjacent to 807 Boylston St.",
+				"lat": 42.349843,
+				"lng": -71.078521,
+				"installed": false,
+				"inRange": false
+			}, {
+				"wellId": "16",
+				"wellShortName": "BY06",
+				"wellLocDesc": "On Boylston St., in front of 647 Boylston St.",
+				"lat": 42.3505688402633,
+				"lng": -71.0758839914017,
+				"installed": false,
+				"inRange": false
+			}, {
+				"wellId": "17",
+				"wellShortName": "BY07",
+				"wellLocDesc": "On Boylston St., in front of 545 Boylston St.",
+				"lat": 42.3505388697201,
+				"lng": -71.075247682209,
+				"installed": false,
+				"inRange": false
+			}, {
+				"wellId": "18",
+				"wellShortName": "BY08",
+				"wellLocDesc": "Corner of Clarendon and Boylston St., adjacent to 206 Clarendon St. (Trinity Church)",
+				"lat": 42.3509067637146,
+				"lng": -71.0747051914711,
+				"installed": false,
+				"inRange": false
+			}, {
+				"wellId": "19",
+				"wellShortName": "BY09",
+				"wellLocDesc": "On Boylston St., in front of 501 Boylston St.",
+				"lat": 42.3513988578022,
+				"lng": -71.072147,
+				"installed": false,
+				"inRange": false
+			}, {
+				"wellId": "20",
+				"wellShortName": "BY01",
+				"wellLocDesc": "On Boylston St., in front of 399 Boylston St.",
+				"lat": 42.3516722845456,
+				"lng": -71.0718326527787,
+				"installed": false,
+				"inRange": false
+			}
+		]
+	}, {
+		"clusterNo": "CB",
+		"installed": false,
+		"clusterStyle": [{
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}],
+		"wells": [{
+			"wellId": "21",
+			"wellShortName": "CB01",
+			"wellLocDesc": "Corner of Massachusetts and Columbus Ave., adjacent to 444 Massachusetts Ave.",
+			"lat": 42.3407746250554,
+			"lng": -71.081744635582,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "22",
+			"wellShortName": "CB02",
+			"wellLocDesc": "Corner of Columbus Ave. and Claremont Park, adjacent to 537A Columbus Ave.",
+			"lat": 42.3416390262009,
+			"lng": -71.0806301865082,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "23",
+			"wellShortName": "CB03",
+			"wellLocDesc": "Corner of Columbus Ave. and Greenwich Park, adjacent to 509 Columbus Ave.",
+			"lat": 42.3422746240385,
+			"lng": -71.0799014576721,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "24",
+			"wellShortName": "CB04",
+			"wellLocDesc": "Corner of Columbus Ave. and West Rutland Sq., adjacent to 495 Columbus Ave.",
+			"lat": 42.3427197724885,
+			"lng": -71.0793368773155,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "25",
+			"wellShortName": "CB05",
+			"wellLocDesc": "Corner of Columbus Ave. and Braddock Park, adjacent to 465 Columbus Ave.",
+			"lat": 42.3437499123319,
+			"lng": -71.0780160932541,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "26",
+			"wellShortName": "CB06",
+			"wellLocDesc": "Corner of Holyoke St. and Columbus Ave.",
+			"lat": 42.3443740526606,
+			"lng": -71.0772303030758,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "27",
+			"wellShortName": "CB07",
+			"wellLocDesc": "Corner of West Canton St. and Columbus Ave., in front of 400 Columbus Ave.",
+			"lat": 42.3447227628856,
+			"lng": -71.0764790699405,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "28",
+			"wellShortName": "CB08",
+			"wellLocDesc": "Corner of Dartmouth St. and Columbus Ave., adjacent to 345 Columbus Ave.",
+			"lat": 42.3459016039794,
+			"lng": -71.0753528601189,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "29",
+			"wellShortName": "CB09",
+			"wellLocDesc": "On Columbus Ave., adjacent to 287 Columbus Ave.",
+			"lat": 42.3466621938855,
+			"lng": -71.0744096208668,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "30",
+			"wellShortName": "CB10",
+			"wellLocDesc": "On Columbus Ave., adjacent to 287 Columbus Ave.",
+			"lat": 42.34733,
+			"lng": -71.07327,
+			"installed": false,
+			"inRange": false
+		}]
+	}, {
+		"clusterNo": "CM",
+		"installed": false,
+		"clusterStyle": [{
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}],
+		"wells": [{
+			"wellId": "31",
+			"wellShortName": "CM01",
+			"wellLocDesc": "On Commonwealth Ave., in front of 400 Commonwealth Ave.",
+			"lat": 42.3487826196263,
+			"lng": -71.0908000638237,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "32",
+			"wellShortName": "CM02",
+			"wellLocDesc": "On Commonwealth Ave., in front of 355 Commonwealth Ave.",
+			"lat": 42.3493767609044,
+			"lng": -71.0884178834324,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "33",
+			"wellShortName": "CM03",
+			"wellLocDesc": "On Commonwealth Ave., in front of 346 Commonwealth Ave.",
+			"lat": 42.3491583363934,
+			"lng": -71.0873308711987,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "34",
+			"wellShortName": "CM04",
+			"wellLocDesc": "Corner of Commonwealth Ave. and Hereford St., adjacent to 310 Commonwealth Ave.",
+			"lat": 42.349534406543,
+			"lng": -71.0858704257603,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "35",
+			"wellShortName": "CM05",
+			"wellLocDesc": "Corner of Commonwealth Ave. and Fairfield St., in front of 246 Commonwealth Ave.",
+			"lat": 42.3504072821305,
+			"lng": -71.08272716403,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "36",
+			"wellShortName": "CM06",
+			"wellLocDesc": "On Commonwealth Ave., adjacent to 25 Exeter St.",
+			"lat": 42.3510247519325,
+			"lng": -71.0804325342178,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "37",
+			"wellShortName": "CM07",
+			"wellLocDesc": "On Commonwealth Ave., in front of 170 Commonwealth Ave.",
+			"lat": 42.3514668755617,
+			"lng": -71.0787652797623,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "38",
+			"wellShortName": "CM08",
+			"wellLocDesc": "On Commonwealth Ave., in front of the First Baptist Church",
+			"lat": 42.3521615544677,
+			"lng": -71.076233536005,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "39",
+			"wellShortName": "CM09",
+			"wellLocDesc": "On Commonwealth. Ave., in front of 50 Commonwealth Ave.",
+			"lat": 42.3527562119448,
+			"lng": -71.0740260779857,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "40",
+			"wellShortName": "CM10",
+			"wellLocDesc": "On Commonwealth Ave., in front of 20 Commonwealth Ave.",
+			"lat": 42.3531447682147,
+			"lng": -71.0725381165676,
+			"installed": false,
+			"inRange": false
+		}]
+	}, {
+		"clusterNo": "F",
+		"installed": false,
+		"clusterStyle": [{
+			"url": "img/ZoneMarkerIconFilled-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}],
+		"wells": [{
+			"wellId": "41",
+			"wellShortName": "F01",
+			"wellLocDesc": "On the Fenway, in front the Gardner Museum (2 Palace Rd.)",
+			"lat": 42.338836,
+			"lng": -71.098624,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "42",
+			"wellShortName": "F02",
+			"wellLocDesc": "Corner of Fenway and Avenue Louis Pasteur, adjacent to 300 Fenway",
+			"lat": 42.3402057125452,
+			"lng": -71.1007539914017,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "43",
+			"wellShortName": "F03",
+			"wellLocDesc": "Corner of Park Drive and Queensberry St., adjacent to 211 Queensberry St.",
+			"lat": 42.341693,
+			"lng": -71.1009,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "44",
+			"wellShortName": "F04",
+			"wellLocDesc": "Corner of Park Drive and Kilmarnock St., adjacent to 151 Park Drive",
+			"lat": 42.341004,
+			"lng": -71.098459,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "45",
+			"wellShortName": "F05",
+			"wellLocDesc": "On Park Drive, in front of 125 Park Drive",
+			"lat": 42.3417344759215,
+			"lng": -71.0976457754631,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "46",
+			"wellShortName": "F06",
+			"wellLocDesc": "Corner of Park Drive and Jersey St., adjacent to 95 Park Drive",
+			"lat": 42.3420745455166,
+			"lng": -71.096504682209,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "47",
+			"wellShortName": "F07",
+			"wellLocDesc": "On Park Drive, in front of 73 Park Drive",
+			"lat": 42.3424618688031,
+			"lng": -71.0953382797622,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "48",
+			"wellShortName": "F08",
+			"wellLocDesc": "Corner of Park Drive and Queensberry St., adjacent to 41 Park Drive",
+			"lat": 42.343468,
+			"lng": -71.094889,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "49",
+			"wellShortName": "F09",
+			"wellLocDesc": "Corner of Westland Ave. and Hemenway St., adjacent to 90 A Westland Ave.",
+			"lat": 42.3438431490803,
+			"lng": -71.0898966338959,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "50",
+			"wellShortName": "F10",
+			"wellLocDesc": "Corner of Hemenway and Forsyth St., adjacent to 204 Hemenway St.",
+			"lat": 42.3406390087178,
+			"lng": -71.0912077202377,
+			"installed": false,
+			"inRange": false
+		}]
+	}, {
+		"clusterNo": "N",
+		"installed": false,
+		"clusterStyle": [{
+			"url": "img/ZoneMarkerIconFilled-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}],
+		"wells": [{
+			"wellId": "51",
+			"wellShortName": "N01",
+			"wellLocDesc": "On Newbury St., in front of 344 Newbury St.",
+			"lat": 42.3483424243042,
+			"lng": -71.0869182589302,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "52",
+			"wellShortName": "N02",
+			"wellLocDesc": "On Newbury St., in front of 314 Newbury St.",
+			"lat": 42.348772,
+			"lng": -71.0853,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "53",
+			"wellShortName": "N03",
+			"wellLocDesc": "On Newbury St., in front of 280 Newbury St.",
+			"lat": 42.3491777963974,
+			"lng": -71.0837722478504,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "54",
+			"wellShortName": "N04",
+			"wellLocDesc": "On Newbury St., in front of 214 Newbury St.",
+			"lat": 42.3499581507034,
+			"lng": -71.0809520613423,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "55",
+			"wellShortName": "N05",
+			"wellLocDesc": "On Newbury St., in front of 156 Newbury St.",
+			"lat": 42.3506119556248,
+			"lng": -71.0785185128975,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "56",
+			"wellShortName": "N06",
+			"wellLocDesc": "Corner of Dartmouth and Newbury St., adjacent to 265 Dartmouth St.",
+			"lat": 42.3508039378536,
+			"lng": -71.0776161398811,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "57",
+			"wellShortName": "N07",
+			"wellLocDesc": "On Newbury St., in front of 81 Newbury St.",
+			"lat": 42.3517377510068,
+			"lng": -71.0748723263893,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "58",
+			"wellShortName": "N08",
+			"wellLocDesc": "On Newbury St., at the rear of 491 Boylston St.",
+			"lat": 42.3517273023598,
+			"lng": -71.0743051951065,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "59",
+			"wellShortName": "N09",
+			"wellLocDesc": "Corner of Berkeley and Newbury St., adjacent to 46 Newbury St.",
+			"lat": 42.3519836085599,
+			"lng": -71.0733040932541,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "60",
+			"wellShortName": "N10",
+			"wellLocDesc": "On Newbury St., in front of 10 Newbury St.",
+			"lat": 42.3524254301967,
+			"lng": -71.0716928723526,
+			"installed": false,
+			"inRange": false
+		}]
+	}, {
+		"clusterNo": "T",
+		"installed": false,
+		"clusterStyle": [{
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}, {
+			"url": "img/ZoneMarkerIcon-Inactive.svg",
+			"width": 80,
+			"height": 80,
+			"textColor": "#000000",
+			"textSize": 15
+		}],
+		"wells": [{
+			"wellId": "61",
+			"wellShortName": "T01",
+			"wellLocDesc": "Corner of Tremont and Northampton St., adjacent to 792 Tremont St.",
+			"lat": 42.338753,
+			"lng": -71.081048,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "62",
+			"wellShortName": "T02",
+			"wellLocDesc": "Corner of Tremont and Worcester St., adjacent to 748 Tremont St.",
+			"lat": 42.3400167823041,
+			"lng": -71.0787895889549,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "63",
+			"wellShortName": "T03",
+			"wellLocDesc": "Corner of Tremont St. and West Concord Square, adjacent to 700 Tremont St.",
+			"lat": 42.340463,
+			"lng": -71.077921,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "64",
+			"wellShortName": "T04",
+			"wellLocDesc": "Corner of Tremont and West Newton St., adjacent to 676 Tremont St.",
+			"lat": 42.3412029923607,
+			"lng": -71.0766144096851,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "65",
+			"wellShortName": "T05",
+			"wellLocDesc": "Corner of Tremont and West Brookline St., adjacent to 652 Tremont St.",
+			"lat": 42.3418808689405,
+			"lng": -71.0752755656414,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "66",
+			"wellShortName": "T06",
+			"wellLocDesc": "Corner of Dartmouth and Tremont St., adjacent to 617 Tremont St.",
+			"lat": 42.3430391751167,
+			"lng": -71.0737751865082,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "67",
+			"wellShortName": "T07",
+			"wellLocDesc": "Corner of Tremont and West Dedham St., adjacent to 115 West Dedham St.",
+			"lat": 42.3427507987281,
+			"lng": -71.0736712944774,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "68",
+			"wellShortName": "T08",
+			"wellLocDesc": "Corner of Tremont St. and Upton St., adjacent to 592 Tremont St.",
+			"lat": 42.3430488511531,
+			"lng": -71.073106271164,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "69",
+			"wellShortName": "T09",
+			"wellLocDesc": "Corner of Tremont St. and Union Park, adjacent to 564 Tremont St.",
+			"lat": 42.3435248422625,
+			"lng": -71.072179364418,
+			"installed": false,
+			"inRange": false
+		}, {
+			"wellId": "70",
+			"wellShortName": "T10",
+			"wellLocDesc": "Corner of Tremont and Hanson St., adjacent to 538 Tremont St.",
+			"lat": 42.344206,
+			"lng": -71.070922,
+			"installed": false,
+			"inRange": false
+		}]
+	}]
+}
