@@ -5,14 +5,21 @@ module.exports = function (mongoose, app) {
 
     var api = {
         "createWell": createWell,
+        "createWellBatch": createWellBatch,
         "findWellByName": findWellByName,
         "updateWellReading": updateWellReading,
-        "deleteWell": deleteWell
+        "deleteWell": deleteWell,
+        "findLastWellReadingByName" : findLastWellReadingByName
     };
     return api;
 
     function createWell(well) {
         return wellModel.create(well);
+    }
+
+
+    function createWellBatch(wells) {
+        return wellModel.insertMany(wells);
     }
 
 
@@ -31,6 +38,14 @@ module.exports = function (mongoose, app) {
             {
                 wellName: wellName
             });
+    }
+
+    function findLastWellReadingByName(wellName) {
+        return wellModel.findOne(
+            {
+                wellName: wellName
+            },
+            { wellReadings: {$slice: -1} });
     }
 
     function deleteWell(wellId) {

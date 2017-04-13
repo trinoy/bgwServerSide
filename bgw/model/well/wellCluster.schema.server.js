@@ -2,7 +2,9 @@ module.exports = function(mongoose)
 {
     //var websiteSchema = require("../website/website.schema.server")(mongoose);
     var wellClusterSchema = mongoose.Schema({
+        clusterNo : String,
         installed: Boolean,
+        activationInfo : String,
         clusterStyle : [
             {
                 url: String,
