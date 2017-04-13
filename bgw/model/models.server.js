@@ -1,7 +1,7 @@
 module.exports = function(app) {
 
-    var connectionString = 'mongodb://localhost:27017/test';
-    //var connectionString = 'mongodb://root:password@ds137749.mlab.com:37749/bgw';
+    //var connectionString = 'mongodb://localhost:27017/test';
+    var connectionString = 'mongodb://root:password@ds137749.mlab.com:37749/bgw';
 
     if(process.env.HEROKU_MONGODB_DB_PASSWORD) {
         connectionString = process.env.HEROKU_MONGODB_URL_PREFIX +
