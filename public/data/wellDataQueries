@@ -11,8 +11,7 @@ http://lightwell-server.herokuapp.com/api/bgw/wellBatch
 
 send the wellReading.json
 
-UPDATE WELL READING BY ID
-
+UPDATE WELL READING BY ID PUT REQUEST
 http://lightwell-server.herokuapp.com/api/bgw/well/byId/BC01
 
 send the value in body
@@ -28,3 +27,16 @@ http://lightwell-server.herokuapp.com/api/bgw/well/lastReading/BC01
 ====================================================================
 
 
+
+
+http://lightwell-server.herokuapp.com/api/bgw/aboutUs
+
+{
+ "name": "aboutUsInfo",
+ "content1" : "As draw-down of groundwater in the urban environment threatens wood foundations of historic buildings, threatens the health of urban coastal, riverine and groundwater ecologies through storm water pollution and seawater intrusion,and increases urban vulnerability to heat waves, sea levels rise, and extreme storm events; this work will make the real-time monitoring of groundwater in public space a valuable tool to communicate and evaluate the impacts of localized mitigating strategies, and engage the public in implementing these solutions. Collecting groundwater level data is a difficult, slow, manual process.  This installation leverages existing groundwater monitoring wells established by the Boston Groundwater Trust, equipping them with newly redesigned caps housing LEDs and microcontrollers with Bluetooth capability connected to pressure sensors.  Groundwater levels are displayed in real time and crowd-sourced to generate interactive visualization tools.",
+ "content2" : "7 Streets with 10 Wells over 7 Months",
+ "content3" : "Ten Bluetooth-enabled well caps will be on display on each of the seven listed streets for a period of one month. During that time, residents and visitors can see real-time groundwater level data digitally displayed on the face of the well caps and interact with the data through the mobile app.  Clicking on a data well within range displays a current reading along with the groundwater diagram.  With your data enabled mobile device, you can then help us collect these data readings by uploading the readings to the cloud.",
+ "content4" : "Each month the data wells will be relocated to the next street in the sequence.  The time period for each street can be found under both the Well List and Well Map tabs.  Follow the caps and publish the readings!",
+ "content5" : "You can find more information on the Seven Streets installation and other LightWell installations below",
+
+}
