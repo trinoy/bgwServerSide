@@ -1,16 +1,19 @@
 
 
+CREATE WELL CLUSTER
+http://lightwell-server.herokuapp.com/api/bgw/wellCluster
+
 GET WELL BY NAME
-http://localhost:3000/api/bgw/well/F10
+http://lightwell-server.herokuapp.com/api/bgw/well/F10
 
 CREATE ALL WELLS BY BATCH
-http://localhost:3000/api/bgw/wellBatch
+http://lightwell-server.herokuapp.com/api/bgw/wellBatch
 
 send the wellReading.json
 
 UPDATE WELL READING BY ID
 
-http://localhost:3000/api/bgw/well/byId/BC01
+http://lightwell-server.herokuapp.com/api/bgw/well/byId/BC01
 
 send the value in body
 {
@@ -19,7 +22,7 @@ send the value in body
 
 
 GET LAST READING
-http://localhost:3000/api/bgw/well/lastReading/BC01
+http://lightwell-server.herokuapp.com/api/bgw/well/lastReading/BC01
 
 
 ====================================================================
