@@ -1,14 +1,9 @@
 module.exports = function(app) {
 
-    //var connectionString = 'mongodb://localhost:27017/test';
-    var connectionString = 'mongodb://root:password@ds137749.mlab.com:37749/bgw';
+    var connectionString = 'mongodb://localhost:27017/test';
 
-    if(process.env.HEROKU_MONGODB_DB_PASSWORD) {
-        connectionString = process.env.HEROKU_MONGODB_URL_PREFIX +
-            process.env.HEROKU_MONGODB_DB_USERNAME + ":" +
-            process.env.HEROKU_MONGODB_DB_PASSWORD +
-            process.env.HEROKU_MONGODB_URL_SUFFIX +
-            process.env.HEROKU_MONGODB_DB;
+    if(process.env.DB_URL) {
+        connectionString = process.env.DB_URL;
         console.log(connectionString);
     }
 
