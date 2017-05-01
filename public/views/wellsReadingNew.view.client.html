@@ -1,0 +1,36 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-text  navbar-left">
+            <a href="#/wellReading" class="navbar-link navbar-list-left">
+         <span class="glyphicon glyphicon-chevron-left">
+          </span>
+            </a>
+        </div>
+
+        <a class="navbar-brand">
+            Well Readings New
+        </a>
+    </div>
+</nav>
+
+
+<div class="container-fluid margin-custom-top-list">
+        <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 visible-xs-block visible-sm-block
+        visible-md-block visible-lg-block detail-page">
+            <!--        <div ng-show="model.error" class="alert alert-danger" role="alert">
+                        {{model.error}}
+                    </div>-->
+            <form>
+                <div class="form-group">
+                    <label for="wellId">Well Id</label>
+                    <input ng-model="model.currentWell.wellId" type="text" class="form-control" id="wellId" placeholder="Well Location text">
+                </div>
+                <div class="form-group">
+                    <label for="wName">Well Short Name</label>
+                    <input ng-model="model.currentWell.wellName" type="text" class="form-control" id="wName" placeholder="Well Location text">
+                </div>
+            </form>
+                <a ng-click="model.deleteWellReading()" class="btn btn-info  btn-block">Add</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-text  navbar-left">
+            <a href="#/" class="navbar-link navbar-list-left">
+         <span class="glyphicon glyphicon-chevron-left">
+          </span>
+            </a>
+        </div>
+
+        <a class="navbar-brand">
+            About Us
+        </a>
+    </div>
+</nav>
+
+
+<div class="container-fluid margin-custom-top-list">
+        <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 visible-xs-block visible-sm-block
+        visible-md-block visible-lg-block detail-page">
+            <!--        <div ng-show="model.error" class="alert alert-danger" role="alert">
+                        {{model.error}}
+                    </div>-->
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input ng-model="model.aboutUs.name" type="text" class="form-control" id="name" placeholder="Well Location text"
+                           >
+                </div>
+                <div class="form-group">
+                    <label for="parOne">Paragraph One</label>
+                    <textArea ng-model="model.aboutUs.content1" type="text" class="form-control" id="parOne" placeholder="Well Location text">
+                    </textArea>
+                </div>
+
+                <div class="form-group">
+                    <label for="parTwo">Paragraph Two</label>
+                    <textArea ng-model="model.aboutUs.content2" type="text" class="form-control" id="parTwo" placeholder="Well Location text">
+                    </textArea>
+                </div>
+                <div class="form-group">
+                    <label for="parThree">Paragraph Three</label>
+                    <textArea ng-model="model.aboutUs.content3" type="text" class="form-control" id="parThree" placeholder="Well Location">
+                    </textArea>
+                </div>
+
+                <div class="form-group">
+                    <label for="parFour">Paragraph Four</label>
+                    <textArea ng-model="model.aboutUs.content4" type="text" class="form-control" id="parFour" placeholder="Well Location">
+                    </textArea>
+                </div>
+
+                <div class="form-group">
+                    <label for="parFive">Paragraph Five</label>
+                    <textArea ng-model="model.aboutUs.content5" type="text" class="form-control" id="parFive" placeholder="Well installed">
+                    </textArea>
+                </div>
+
+            </form>
+            <div class="button-group" style="margin-bottom: 100px">
+                <a ng-click="model.updateAboutUs()" class="btn btn-info  btn-block">Update</a>
+            </div>
+        </div>
+    </div>
+</div>

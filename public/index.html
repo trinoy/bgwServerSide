@@ -1,0 +1,39 @@
+<html lang="en" ng-app="lightWell">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Assignment Home Page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/textAngular.css" rel="stylesheet"/>
+
+    <script src="localjs/angular.js"></script>
+    <script src="localjs/angular-route.js"></script>
+    <script src="localjs/ui-bootstrap-custom-2.2.0.js"></script>
+    <script src="localjs/ui-bootstrap-custom-tpls-2.2.0.js"></script>
+
+    <script src="localjs/textAngular/textAngular-rangy.min.js"></script>
+    <script src="localjs/textAngular/textAngular-sanitize.min.js"></script>
+    <script src="localjs/textAngular/textAngular.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="config/config.js"></script>
+    <script src="views/wellClustersList.view.client.html"></script>
+    <script src ="views/wellClustersList.controller.client.js"></script>
+
+    <script src="views/wellsReadingList.view.client.html"></script>
+    <script src="views/wellReading.controller.client.js"></script>
+    <script src="views/landing.html"></script>
+
+    <script src="services/wellCluster.service.client.js"></script>
+    <script src="services/wellReading.service.client.js"></script>
+    <script src="services/aboutUs.service.client.js"></script>
+
+</head>
+
+<body>
+<div class="mainView" ng-view>
+</div>
+</body>
+</html>

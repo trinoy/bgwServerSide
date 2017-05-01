@@ -1,0 +1,66 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-text  navbar-left">
+            <a href="#/" class="navbar-link navbar-list-left">
+         <span class="glyphicon glyphicon-chevron-left">
+          </span>
+            </a>
+        </div>
+
+        <a class="navbar-brand">
+            Well Readings View
+        </a>
+
+        <div class="navbar-text pull-right navbar-right custom-right-margin">
+            <a href="#/wellReading/new" class="navbar-link">
+         <span class="glyphicon glyphicon-plus">
+          </span>
+            </a>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid margin-custom-top-list">
+    <div class="row-fluid">
+        <div class="col-xs-4 col-sm-4 visible-lg-block visible-md-block master-page">
+            <ul class="list-group list-height">
+                <li ng-repeat="well in model.wells" class="list-group-item">
+                    <a href="" class="navbar-link">
+                        well Id : {{well.wellId}}
+                    </a>
+                    <a ng-click="model.fillWellData(well)">
+                        <span class="fa fa-pencil-square-o pull-right">
+                        </span>
+                    </a>
+                    <div>
+                        Well Name : {{well.wellName}}
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 visible-xs-block visible-sm-block
+        visible-md-block visible-lg-block detail-page">
+            <!--        <div ng-show="model.error" class="alert alert-danger" role="alert">
+                        {{model.error}}
+                    </div>-->
+            <form>
+                <div class="form-group">
+                    <label for="wellId">Well Id</label>
+                    <input ng-model="model.currentWell.wellId" type="text" class="form-control" id="wellId" placeholder="Well Location text">
+                </div>
+                <div class="form-group">
+                    <label for="wName">Well Short Name</label>
+                    <input ng-model="model.currentWell.wellName" type="text" class="form-control" id="wName" placeholder="Well Location text">
+                </div>
+            </form>
+            <div class="button-group">
+            <a ng-click="model.deleteWellReading()" class="btn btn-danger  btn-block">Delete</a>
+            <a ng-click="model.updateWellReading()" class="btn btn-info  btn-block">Update</a>
+            </div>
+        </div>
+    </div>
+</div>

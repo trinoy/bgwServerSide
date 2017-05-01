@@ -1,0 +1,66 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-text  navbar-left">
+            <a href="#/{{model.clusterId}}" class="navbar-link navbar-list-left">
+         <span class="glyphicon glyphicon-chevron-left">
+          </span>
+            </a>
+        </div>
+
+        <a class="navbar-brand">
+            Add New Well
+        </a>
+    </div>
+</nav>
+
+
+<div class="container-fluid margin-custom-top-list">
+        <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 visible-xs-block visible-sm-block
+        visible-md-block visible-lg-block detail-page">
+            <!--        <div ng-show="model.error" class="alert alert-danger" role="alert">
+                        {{model.error}}
+                    </div>-->
+            <form>
+                <div class="form-group">
+                    <label for="wellId">Well Id</label>
+                    <input ng-model="model.currentWell.wellId" type="text" class="form-control" id="wellId" placeholder="Well Id"
+                           >
+                </div>
+                <div class="form-group">
+                    <label for="sName">Well Short Name</label>
+                    <input ng-model="model.currentWell.wellShortName" type="text" class="form-control" id="sName" placeholder="Well Short Name"
+                           >
+                </div>
+
+                <div class="form-group">
+                    <label for="wellLoc">Well Location</label>
+                    <input ng-model="model.currentWell.wellLocDesc" type="text" class="form-control" id="wellLoc" placeholder="Well Location text"
+                           >
+                </div>
+                <div class="form-group">
+                    <label for="lat">Latitude</label>
+                    <input ng-model="model.currentWell.lat" type="text" class="form-control" id="lat" placeholder="Well Latitude">
+                </div>
+
+                <div class="form-group">
+                    <label for="long">Longitude</label>
+                    <input ng-model="model.currentWell.lng" type="text" class="form-control" id="long" placeholder="Well Longitude">
+                </div>
+
+                <div class="form-group">
+                    <label for="installed">Well Installed</label>
+                    <input ng-model="model.currentWell.installed" type="text" class="form-control" id="installed" placeholder="Well installed">
+                </div>
+
+                <div class="form-group">
+                    <label for="range">Well In Range</label>
+                    <input ng-model="model.currentWell.inRange" type="text" class="form-control" id="range" placeholder="Enter False">
+                </div>
+
+            </form>
+            <div class="button-group col-lg-2 col-md-2">
+                <a ng-click="model.addWell()" class="btn btn-info  btn-block">Add</a>
+            </div>
+        </div>
+    </div>
+</div>

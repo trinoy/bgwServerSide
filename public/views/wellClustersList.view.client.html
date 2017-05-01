@@ -1,0 +1,71 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-text  navbar-left">
+            <a href="#/" class="navbar-link navbar-list-left">
+         <span class="glyphicon glyphicon-chevron-left">
+          </span>
+            </a>
+        </div>
+
+        <a class="navbar-brand">
+            Well Clusters
+        </a>
+
+      <!--  <div class="navbar-text pull-right navbar-right custom-right-margin">
+            <a href="#/wellReading" class="navbar-link">
+         <span class="glyphicon glyphicon-plus">
+          </span>
+            </a>
+        </div>-->
+    </div>
+</nav>
+
+
+<div class="container-fluid margin-custom-top-list">
+    <div class="row-fluid">
+        <div class="col-xs-4 col-sm-4 visible-lg-block visible-md-block master-page">
+            <ul class="list-group">
+                <li ng-repeat="cluster in model.clusters" class="list-group-item">
+                    <a href="#/{{cluster.clusterNo}}" class="navbar-link">
+                        ClusterName : {{cluster.clusterNo}}
+                    </a>
+                    <a ng-click="model.fillClusterData(cluster)">
+                        <span class="fa fa-pencil-square-o pull-right">
+                        </span>
+                    </a>
+                    <div>
+                        Installed : {{cluster.installed}}
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 visible-xs-block visible-sm-block
+        visible-md-block visible-lg-block detail-page">
+            <!--        <div ng-show="model.error" class="alert alert-danger" role="alert">
+                        {{model.error}}
+                    </div>-->
+            <form>
+                <div class="form-group">
+                    <label for="cNo">Cluster Number</label>
+                    <input ng-model="model.currentCluster.clusterNo" type="text" class="form-control" id="cNo" placeholder="Well Location text">
+                </div>
+                <div class="form-group">
+                    <label for="activation">Activation Info</label>
+                    <input ng-model="model.currentCluster.activationInfo" type="text" class="form-control" id="activation" placeholder="Well Location text">
+                </div>
+
+                <div class="form-group">
+                    <label for="cinstalled">Installed</label>
+                    <input ng-model="model.currentCluster.installed" type="text" class="form-control" id="cinstalled" placeholder="Well Location text">
+                </div>
+            </form>
+            <div class="button-group">
+                <a ng-click="model.deleteCluster()" class="btn btn-danger  btn-block" disabled>Delete</a>
+                <a ng-click="model.updateCluster()" class="btn btn-info  btn-block">Update</a>
+            </div>
+        </div>
+    </div>
+</div>

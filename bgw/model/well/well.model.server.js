@@ -5,16 +5,27 @@ module.exports = function (mongoose, app) {
 
     var api = {
         "createWell": createWell,
+        "findAllWells":findAllWells,
         "createWellBatch": createWellBatch,
         "findWellByName": findWellByName,
         "updateWellReading": updateWellReading,
         "deleteWell": deleteWell,
+        "updateWell":updateWell,
+        "deleteAllWells" : deleteAllWells,
         "findLastWellReadingByName" : findLastWellReadingByName
     };
     return api;
 
     function createWell(well) {
         return wellModel.create(well);
+    }
+
+    function deleteAllWells() {
+        return wellModel.remove({});
+    }
+
+    function findAllWells() {
+        return wellModel.find({});
     }
 
 
@@ -51,6 +62,17 @@ module.exports = function (mongoose, app) {
     function deleteWell(wellId) {
         return wellModel.remove({_id: wellId});
 
+    }
+
+    function updateWell(wellId,well) {
+        return wellModel.findOneAndUpdate(
+            {
+                _id: wellId
+            },
+            {
+                wellId : well.wellId,
+                wellName: well.wellName
+            })
     }
 
 };

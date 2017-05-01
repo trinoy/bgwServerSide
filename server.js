@@ -28,7 +28,7 @@ app.use(function (req, res, next) {
 });
 
 // configure a public directory to host static content
-//app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 require ("./bgw/app.js")(app);
 //var ipaddress = process.env.OPENSHIFT_NODEJS_IP;

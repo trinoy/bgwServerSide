@@ -2,11 +2,14 @@ module.exports = function (app,model) {
 
     app.post('/api/bgw/well', createWell);
     app.post('/api/bgw/wellBatch', createWellBatch);
+    app.get('/api/bgw/well', getAllWells);
+    app.delete('/api/bgw/well', deleteAllWells);
     app.get('/api/bgw/well/:wellName', findWellByName);
     app.get('/api/bgw/well/lastReading/:wellName', findLastWellReadingByName);
     app.put('/api/bgw/well/:wellId', updateWellReading);
     app.put('/api/bgw/well/byId/:wellName', updateWellReadingById);
     app.delete('/api/bgw/well/:wellId', deleteWell);
+    app.put('/api/bgw/wellMain/:wellId', updateWell);
 
     function createWell(req, res) {
         var well = req.body;
@@ -14,6 +17,23 @@ module.exports = function (app,model) {
         model.wellModel.createWell(well)
             .then(function (well) {
                     res.send(well);
+                },
+                function (error) {
+                    res.sendStatus(400).send(error);
+
+                }
+            )
+    }
+
+    function getAllWells(req, res) {
+        model.wellModel.findAllWells()
+            .then(function (wells) {
+                    if (wells) {
+                        res.send(wells);
+                    }
+                    else {
+                        res.send('0');
+                    }
                 },
                 function (error) {
                     res.sendStatus(400).send(error);
@@ -133,6 +153,42 @@ module.exports = function (app,model) {
         var wellId = req.params.wellId;
 
         model.wellModel.deleteWell(wellId)
+            .then(function (well) {
+                    if (well) {
+                        res.send(well);
+                    }
+                    else {
+                        res.send('0');
+                    }
+                },
+                function (error) {
+                    res.sendStatus(400).send(error);
+
+                }
+            )
+    }
+
+    function updateWell(req, res) {
+        var wellId = req.params.wellId;
+        var well = req.body;
+        model.wellModel.updateWell(wellId,well)
+            .then(function (status) {
+                    if (status) {
+                        res.send(status);
+                    }
+                    else {
+                        res.send('0');
+                    }
+                },
+                function (error) {
+                    res.sendStatus(400).send(error);
+
+                }
+            )
+    }
+
+    function deleteAllWells(req, res) {
+        model.wellModel.deleteAllWells()
             .then(function (well) {
                     if (well) {
                         res.send(well);

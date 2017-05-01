@@ -1,7 +1,7 @@
 {
 	"clusters": [{
 		"clusterNo": "BC",
-		"activationInfo" : "Street is active. Please zoom in to view individual well locations an water level readings",
+		"activationInfo" : "Street is active in May. Please zoom in to view individual well locations and water level readings.",
 		"installed": true,
 		"clusterStyle": [{
 			"url": "img/ZoneMarkerIcon-Active.svg",
@@ -106,7 +106,7 @@
 	}, {
 		"clusterNo": "BY",
 		"installed": false,
-		"activationInfo" : "Wells in this street will be active in July 2017. Please select a well from the active street",
+		"activationInfo" : "Wells on this street will be active in August 2017. Please select a well from the active street.",
 		"clusterStyle": [{
 			"url": "img/ZoneMarkerIconFilled-Inactive.svg",
 			"width": 80,
@@ -215,7 +215,7 @@
 	}, {
 		"clusterNo": "CB",
 		"installed": false,
-		"activationInfo" : "Wells in this street will be active in July 2017. Please select a well from the active street",
+		"activationInfo" : "Wells on this street will be active in October 2017. Please select a well from the active street.",
 		"clusterStyle": [{
 			"url": "img/ZoneMarkerIcon-Inactive.svg",
 			"width": 80,
@@ -319,7 +319,7 @@
 	}, {
 		"clusterNo": "CM",
 		"installed": false,
-		"activationInfo" : "Wells in this street will be active in July 2017. Please select a well from the active street",
+		"activationInfo" : "Wells on this street will be active in June 2017. Please select a well from the active street.",
 		"clusterStyle": [{
 			"url": "img/ZoneMarkerIcon-Inactive.svg",
 			"width": 80,
@@ -423,7 +423,7 @@
 	}, {
 		"clusterNo": "F",
 		"installed": false,
-		"activationInfo" : "Wells in this street will be active in July 2017. Please select a well from the active street",
+		"activationInfo" : "Wells on this street will be active in September 2017. Please select a well from the active street.",
 		"clusterStyle": [{
 			"url": "img/ZoneMarkerIconFilled-Inactive.svg",
 			"width": 80,
@@ -527,7 +527,7 @@
 	}, {
 		"clusterNo": "N",
 		"installed": false,
-		"activationInfo" : "Wells in this street will be active in July 2017. Please select a well from the active street",
+		"activationInfo" : "Wells on this street will be active in July 2017. Please select a well from the active street.",
 		"clusterStyle": [{
 			"url": "img/ZoneMarkerIconFilled-Inactive.svg",
 			"width": 80,
@@ -631,7 +631,7 @@
 	}, {
 		"clusterNo": "T",
 		"installed": false,
-		"activationInfo" : "Wells in this street will be active in July 2017. Please select a well from the active street",
+		"activationInfo" : "Wells on this street will be active in November 2017. Please select a well from the active street.",
 		"clusterStyle": [{
 			"url": "img/ZoneMarkerIcon-Inactive.svg",
 			"width": 80,
