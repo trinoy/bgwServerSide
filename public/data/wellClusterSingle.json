@@ -1,0 +1,44 @@
+{
+  "clusters": [{
+    "clusterNo": "OO",
+    "activationInfo" : "Street is active in Dec. Please zoom in to view individual well locations and water level readings.",
+    "installed": true,
+    "clusterStyle": [{
+      "url": "img/ZoneMarkerIcon-Active.svg",
+      "width": 80,
+      "height": 80,
+      "textColor": "#000000",
+      "textSize": 15
+    }, {
+      "url": "img/ZoneMarkerIcon-Active.svg",
+      "width": 80,
+      "height": 80,
+      "textColor": "#000000",
+      "textSize": 15
+    }, {
+      "url": "img/ZoneMarkerIcon-Active.svg",
+      "width": 80,
+      "height": 80,
+      "textColor": "#000000",
+      "textSize": 15
+    }],
+    "wells": [{
+      "wellId": "99",
+      "wellShortName": "BC99",
+      "wellLocDesc": "On Beacon St., in front of 502 Beacon St.",
+      "lat": 42.350833727596,
+      "lng": -71.0897833607826,
+      "installed": true,
+      "inRange": false
+    },
+      {
+        "wellId": "99",
+        "wellShortName": "BC99",
+        "wellLocDesc": "On Beacon St., in front of 502 Beacon St.",
+        "lat": 42.350833727596,
+        "lng": -71.0897833607826,
+        "installed": true,
+        "inRange": false
+      }]
+  }]
+}

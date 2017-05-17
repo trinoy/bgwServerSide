@@ -1,7 +1,12 @@
 
 
 CREATE WELL CLUSTER
-http://lightwell-server.herokuapp.com/api/bgw/wellCluster
+URL http://lightwell-server.herokuapp.com/api/bgw/wellCluster
+METHOD  POST
+
+BODY
+
+
 
 GET WELL BY NAME
 http://lightwell-server.herokuapp.com/api/bgw/well/F10
