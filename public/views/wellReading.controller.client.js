@@ -1,7 +1,8 @@
 (function () {
     angular
         .module("lightWell")
-        .controller("wellsReadingListController", wellsReadingListController);
+        .controller("wellsReadingListController", wellsReadingListController)
+        .controller("wellsReadingNewController", wellsReadingNewController);
 
 
     function wellsReadingListController(wellReadingService,$route) {
@@ -43,6 +44,20 @@
                 });
         }
 
+    }
+
+
+    function wellsReadingNewController(wellReadingService,$location) {
+        var vm = this;
+        vm.addWell = function () {
+            wellReadingService.createWell(vm.currentWell)
+                .success(function (status) {
+                    $location.url("/wellReading");
+                })
+                .error(function (error) {
+                    console.log(error);
+                });
+        }
     }
 
 })();

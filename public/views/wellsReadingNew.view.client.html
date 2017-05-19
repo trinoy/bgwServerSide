@@ -23,14 +23,14 @@
             <form>
                 <div class="form-group">
                     <label for="wellId">Well Id</label>
-                    <input ng-model="model.currentWell.wellId" type="text" class="form-control" id="wellId" placeholder="Well Location text">
+                    <input ng-model="model.currentWell.wellId" type="text" class="form-control" id="wellId" placeholder="Well ID text">
                 </div>
                 <div class="form-group">
                     <label for="wName">Well Short Name</label>
-                    <input ng-model="model.currentWell.wellName" type="text" class="form-control" id="wName" placeholder="Well Location text">
+                    <input ng-model="model.currentWell.wellName" type="text" class="form-control" id="wName" placeholder="Well Short Name text">
                 </div>
             </form>
-                <a ng-click="model.deleteWellReading()" class="btn btn-info  btn-block">Add</a>
+                <a ng-click="model.addWell()" class="btn btn-info  btn-block">Add</a>
         </div>
     </div>
 </div>

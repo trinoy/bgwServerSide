@@ -9,10 +9,16 @@
         var api = {
             "getAllWells": getAllWells,
             "updateWell" : updateWell,
-            "deleteWell" : deleteWell
+            "deleteWell" : deleteWell,
+            "createWell" : createWell
         };
 
         return api;
+
+        function createWell(well) {
+            var url = "/api/bgw/well";
+            return $http.post(url,well);
+        }
 
         function getAllWells() {
             var url = "/api/bgw/well";
@@ -20,13 +26,13 @@
         }
 
         function deleteWell(wellId) {
-            var url = "/api/bgw/well" + wellId;
+            var url = "/api/bgw/well/" + wellId;
             return $http.delete(url);
         }
 
 
         function updateWell(wellId,well) {
-            var url = "/api/bgw/well/" + wellId;
+            var url = "/api/bgw/wellMain/" + wellId;
             return $http.put(url,well);
         }
     }

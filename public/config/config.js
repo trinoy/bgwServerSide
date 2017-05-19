@@ -20,8 +20,8 @@
             })
             .when("/wellReading/new", {
                 templateUrl: "../views/wellsReadingNew.view.client.html",
-                //controller: "wellsReadingListController"
-                //controllerAs: "model"
+                controller: "wellsReadingNewController",
+                controllerAs: "model"
             })
 
 
