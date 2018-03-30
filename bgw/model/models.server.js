@@ -1,7 +1,4 @@
 module.exports = function(app) {
-
-    var connectionString='mongodb://admin1:admin1@ds111771.mlab.com:11771/lightwell';
-
     if(process.env.DB_URL) {
         connectionString = process.env.DB_URL;
         console.log(connectionString);
