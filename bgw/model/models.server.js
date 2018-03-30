@@ -1,6 +1,6 @@
 module.exports = function(app) {
 
-    var connectionString = 'mongodb://localhost:27017/test';
+    var connectionString='mongodb://admin1:admin1@ds111771.mlab.com:11771/lightwell';
 
     if(process.env.DB_URL) {
         connectionString = process.env.DB_URL;
@@ -8,7 +8,9 @@ module.exports = function(app) {
     }
 
     var mongoose = require("mongoose");
-    mongoose.connect(connectionString);
+    mongoose.connect(connectionString, {
+        useMongoClient: true
+    });
 
     var wellModel = require("./well/well.model.server")(mongoose,app);
     var wellClusterModel = require("./well/wellCluster.model.server")(mongoose,app);
@@ -23,4 +25,4 @@ module.exports = function(app) {
     };
 
     return model;
-}
+};

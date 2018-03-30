@@ -22,7 +22,7 @@
 
         vm.fillWellData = function(well){
             vm.currentWell = well;
-        }
+        };
 
         vm.deleteWellReading = function(){
             wellReadingService.deleteWell(vm.currentWell._id)

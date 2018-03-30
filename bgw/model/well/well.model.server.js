@@ -71,7 +71,8 @@ module.exports = function (mongoose, app) {
             },
             {
                 wellId : well.wellId,
-                wellName: well.wellName
+                wellName: well.wellName,
+                wellElevation: well.wellElevation
             })
     }
 

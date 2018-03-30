@@ -50,11 +50,15 @@
             <form>
                 <div class="form-group">
                     <label for="wellId">Well Id</label>
-                    <input ng-model="model.currentWell.wellId" type="text" class="form-control" id="wellId" placeholder="Well Location text">
+                    <input ng-model="model.currentWell.wellId" type="text" class="form-control" id="wellId" placeholder="Well Id">
                 </div>
                 <div class="form-group">
                     <label for="wName">Well Short Name</label>
-                    <input ng-model="model.currentWell.wellName" type="text" class="form-control" id="wName" placeholder="Well Location text">
+                    <input ng-model="model.currentWell.wellName" type="text" class="form-control" id="wName" placeholder="Well Name">
+                </div>
+                <div class="form-group">
+                    <label for="wElevation">Well Elevation</label>
+                    <input ng-model="model.currentWell.wellElevation" type="number" class="form-control" id="wElevation" placeholder="Well Elevation">
                 </div>
             </form>
             <div class="button-group">
