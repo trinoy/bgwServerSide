@@ -22,7 +22,8 @@ module.exports = function(mongoose)
                 lat: Number,
                 lng: Number,
                 installed : Boolean,
-                inRange : Boolean
+                inRange : Boolean,
+                wellElevation : Number
             }
         ]
     },  {collection: "bgw.wellClusters", safe:true});

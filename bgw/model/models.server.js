@@ -1,13 +1,12 @@
 module.exports = function(app) {
+    var mongoose = require("mongoose");
+
     if(process.env.DB_URL) {
         connectionString = process.env.DB_URL;
-        console.log(connectionString);
+        mongoose.connect(connectionString, {
+            useMongoClient: true
+        });
     }
-
-    var mongoose = require("mongoose");
-    mongoose.connect(connectionString, {
-        useMongoClient: true
-    });
 
     var wellModel = require("./well/well.model.server")(mongoose,app);
     var wellClusterModel = require("./well/wellCluster.model.server")(mongoose,app);

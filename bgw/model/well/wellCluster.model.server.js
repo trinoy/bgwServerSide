@@ -72,7 +72,8 @@ module.exports = function (mongoose, app) {
                 'wells.$.lat': well.lat,
                 'wells.$.lng': well.lng,
                 'wells.$.installed' : well.installed,
-                'wells.$.inRange' : well.inRange
+                'wells.$.inRange' : well.inRange,
+                'wells.$.wellElevation': well.wellElevation
             }
             })
     }
