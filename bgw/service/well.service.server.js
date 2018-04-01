@@ -10,6 +10,7 @@ module.exports = function (app,model) {
     app.put('/api/bgw/well/byId/:wellName', updateWellReadingById);
     app.delete('/api/bgw/well/:wellId', deleteWell);
     app.put('/api/bgw/wellMain/:wellId', updateWell);
+    app.put('/api/bgw/well/elevation/:wellId', updateWellElevation);
 
     function createWell(req, res) {
         var well = req.body;
@@ -172,6 +173,25 @@ module.exports = function (app,model) {
         var wellId = req.params.wellId;
         var well = req.body;
         model.wellModel.updateWell(wellId,well)
+            .then(function (status) {
+                    if (status) {
+                        res.send(status);
+                    }
+                    else {
+                        res.send('0');
+                    }
+                },
+                function (error) {
+                    res.sendStatus(400).send(error);
+
+                }
+            )
+    }
+
+    function updateWellElevation(req, res) {
+        var wellId = req.params.wellId;
+        var elevation = req.body.elevation;
+        model.wellModel.updateWellElevation(wellId,elevation)
             .then(function (status) {
                     if (status) {
                         res.send(status);

@@ -12,7 +12,8 @@ module.exports = function (mongoose, app) {
         "deleteWell": deleteWell,
         "updateWell":updateWell,
         "deleteAllWells" : deleteAllWells,
-        "findLastWellReadingByName" : findLastWellReadingByName
+        "findLastWellReadingByName" : findLastWellReadingByName,
+        "updateWellElevation": updateWellElevation
     };
     return api;
 
@@ -74,6 +75,17 @@ module.exports = function (mongoose, app) {
                 wellName: well.wellName,
                 wellElevation: well.wellElevation
             })
+    }
+
+    function updateWellElevation(wellId, elevation){
+        return wellModel.findOneAndUpdate(
+            {
+                wellId: wellId
+            },
+            {
+                wellElevation: elevation
+            }
+        )
     }
 
 };

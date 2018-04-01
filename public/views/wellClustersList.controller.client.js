@@ -7,7 +7,7 @@
         .controller("aboutUsController", aboutUsController);
 
 
-    function wellClusterController(wellClusterService,$route) {
+    function wellClusterController(wellClusterService, $route) {
         var vm = this;
 
         function init() {
@@ -52,7 +52,7 @@
 
     }
 
-    function wellClusterWellController($routeParams, wellClusterService, $route) {
+    function wellClusterWellController($routeParams, wellClusterService, wellReadingService, $route) {
         var vm = this;
         vm.clusterId = $routeParams["wcId"];
         function init() {
@@ -85,17 +85,23 @@
         vm.updateWell = function () {
             wellClusterService.updateWellInCluster(vm.clusterId, vm.currentWell._id, vm.currentWell)
                 .success(function (status) {
-                    $route.reload();
-
+                    wellReadingService.updateWellElevation(vm.currentWell.wellId, {elevation: vm.currentWell.wellElevation})
+                        .success(function(status){
+                            $route.reload();
+                        })
+                        .error(function(err){
+                            console.log(err);
+                        })
                 })
                 .error(function (error) {
                     console.log(error);
                 });
+
         }
 
     }
 
-    function newWellController($routeParams, wellClusterService, $location) {
+    function newWellController($routeParams, wellClusterService, wellReadingService, $location) {
         var vm = this;
         vm.clusterId = $routeParams["wcId"];
         vm.currentWell = {};
@@ -114,7 +120,13 @@
         vm.addWell = function () {
             wellClusterService.addWellInCluster(vm.clusterId, vm.currentWell)
                 .success(function (status) {
-                    $location.url("/" + vm.clusterId);
+                    wellReadingService.updateWellElevation(vm.currentWell.wellId, {elevation: vm.currentWell.wellElevation})
+                        .success(function(status){
+                            $location.url("/" + vm.clusterId);
+                        })
+                        .error(function(err){
+                            console.log(err);
+                        })
                 })
                 .error(function (error) {
                     console.log(error);
